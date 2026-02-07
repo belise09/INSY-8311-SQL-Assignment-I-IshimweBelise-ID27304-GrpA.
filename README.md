@@ -77,6 +77,7 @@ CREATE TABLE Patients (
     insurance_provider VARCHAR(100)
 );
 ![ER Diagram](/screenshot/Picture3.png)
+
 3. Additional Tables:
 Treatments - Medical treatments and procedures
 
@@ -85,7 +86,8 @@ Appointments - Scheduling information
 LabTests - Laboratory test records
 
 ER Diagram:
-https://media/image8.png
+![ER Diagram](/screenshot/Picture8.png)
+
 
 The ER diagram shows relationships between Departments, Doctors, Patients, Treatments, Appointments, and LabTests tables.
 
