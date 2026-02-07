@@ -125,7 +125,10 @@ Success Criteria (5 Measurable Goals):
 1. Top 5 Most Frequently Admitted Patients Per Department → RANK()
 Function Used: RANK(), DENSE_RANK(), ROW_NUMBER(), PERCENT_RANK()
 
+![ER Diagram](/screenshot/Picture14.png)
+
 Purpose: Identify high-utilization patients for targeted care management
+
 
 2. Running Total of Monthly Patient Admissions → SUM() OVER()
 Function Used: SUM() OVER() with ROWS and RANGE frames
