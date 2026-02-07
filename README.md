@@ -103,15 +103,17 @@ Business Value: Tracks complete patient care pathways and doctor-patient assignm
 Purpose: Identify underutilized doctors (no treatments this month)
 Business Value: Optimizes staff allocation and identifies training needs
 
-4. RIGHT JOIN
+![ER Diagram](/screenshot/Picture10.png)
+
+5. RIGHT JOIN
 Purpose: Detect appointments without assigned doctors
 Business Value: Improves appointment management system efficiency
 
-5. FULL OUTER JOIN
+6. FULL OUTER JOIN
 Purpose: Identify data quality issues (unmatched records)
 Business Value: Ensures data integrity and identifies orphan records
 
-6. SELF JOIN
+7. SELF JOIN
 Purpose: Analyze patient admission patterns by month
 Business Value: Identifies seasonal trends and aids resource planning
 
