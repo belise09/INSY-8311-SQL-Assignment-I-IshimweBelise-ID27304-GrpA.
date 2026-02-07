@@ -118,6 +118,8 @@ Business Value: Ensures data integrity and identifies orphan records
 Purpose: Analyze patient admission patterns by month
 Business Value: Identifies seasonal trends and aids resource planning
 
+![ER Diagram](/screenshot/Picture13.png)
+
 Part B: Window Functions Implementation
 Success Criteria (5 Measurable Goals):
 1. Top 5 Most Frequently Admitted Patients Per Department → RANK()
