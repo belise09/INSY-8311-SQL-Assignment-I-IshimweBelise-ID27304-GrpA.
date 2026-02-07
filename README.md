@@ -60,8 +60,7 @@ CREATE TABLE Doctors (
     salary DECIMAL(10,2),
     FOREIGN KEY (department_id) REFERENCES Departments(department_id)
 );
-
-
+![ER Diagram](/screenshot/Picture2.png)
 
 
 3. Patients Table
