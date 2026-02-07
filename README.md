@@ -76,8 +76,7 @@ CREATE TABLE Patients (
     admission_date DATE,
     insurance_provider VARCHAR(100)
 );
-
-
+![ER Diagram](/screenshot/Picture3.png)
 3. Additional Tables:
 Treatments - Medical treatments and procedures
 
