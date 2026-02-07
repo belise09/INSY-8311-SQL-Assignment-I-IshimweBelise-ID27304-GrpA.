@@ -108,12 +108,13 @@ Business Value: Optimizes staff allocation and identifies training needs
 5. RIGHT JOIN
 Purpose: Detect appointments without assigned doctors
 Business Value: Improves appointment management system efficiency
+![ER Diagram](/screenshot/Picture11.png)
 
-6. FULL OUTER JOIN
+7. FULL OUTER JOIN
 Purpose: Identify data quality issues (unmatched records)
 Business Value: Ensures data integrity and identifies orphan records
-
-7. SELF JOIN
+![ER Diagram](/screenshot/Picture12.png)
+8. SELF JOIN
 Purpose: Analyze patient admission patterns by month
 Business Value: Identifies seasonal trends and aids resource planning
 
@@ -189,62 +190,6 @@ Community Clinic Partnerships - Reduce non-urgent ER visits by 25%
 
 Staff Development Program - Improve retention by 30%
 
-Expected Business Impact
-Metric	Current State	Target State	Improvement
-Annual Cost Savings	-	$400,000	Direct savings
-Readmission Rate	15%	10%	33% reduction
-Patient Satisfaction	Baseline	+25%	Significant improvement
-Doctor Productivity	Baseline	+30%	Efficiency gain
-Revenue Growth	Baseline	+15%	Service expansion
-Repository Structure
-text
-plsql_window_functions_27304_IshimweBelise/
-│
-├── SQL_Scripts/
-│   ├── 01_database_schema.sql
-│   ├── 02_sample_data.sql
-│   ├── 03_joins_implementation.sql
-│   ├── 04_window_functions.sql
-│   └── 05_analysis_queries.sql
-│
-├── Documentation/
-│   ├── ER_Diagram.png
-│   ├── Business_Requirements.pdf
-│   └── Implementation_Guide.md
-│
-├── Screenshots/
-│   ├── inner_join_results.png
-│   ├── left_join_results.png
-│   ├── right_join_results.png
-│   ├── full_outer_join_results.png
-│   ├── self_join_results.png
-│   ├── ranking_functions.png
-│   ├── aggregate_functions.png
-│   ├── navigation_functions.png
-│   └── distribution_functions.png
-│
-└── README.md (this file)
-Technical Implementation Details
-Database System: PostgreSQL 15 (Compatible with Oracle, MySQL, SQL Server)
-
-Tools Used: pgAdmin 4, DBeaver, VS Code
-
-Version Control: Git with GitHub
-
-Testing Environment: Local PostgreSQL instance with sample data
-
-References
-Oracle Database SQL Language Reference - Window Functions
-
-PostgreSQL 15 Documentation - Advanced SQL Features
-
-Silberschatz, A., Korth, H., & Sudarshan, S. (2020). Database System Concepts
-
-Healthcare Information and Management Systems Society (HIMSS) - Data Standards
-
-MySQL 8.0 Reference Manual - Window Function Syntax
-
-SQL Server 2022 Documentation - Analytic Functions
 
 Academic Integrity Statement
 "All sources were properly cited. Implementations and analysis represent original work. No AI-generated content was copied without attribution or adaptation. This assignment was completed independently following all academic integrity guidelines."
