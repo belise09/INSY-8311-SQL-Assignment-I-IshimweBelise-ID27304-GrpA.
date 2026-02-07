@@ -46,7 +46,7 @@ CREATE TABLE Departments (
     head_doctor_id INT
 );
 
-![ER Diagram](/screenshot/Picture1.png)
+![ER Diagram](/screenshot/Picture5.png)
 
 2. Doctors Table
 sql
@@ -60,7 +60,7 @@ CREATE TABLE Doctors (
     salary DECIMAL(10,2),
     FOREIGN KEY (department_id) REFERENCES Departments(department_id)
 );
-![ER Diagram](/screenshot/Picture2.png)
+![ER Diagram](/screenshot/Picture6.png)
 
 
 3. Patients Table
@@ -76,7 +76,7 @@ CREATE TABLE Patients (
     admission_date DATE,
     insurance_provider VARCHAR(100)
 );
-![ER Diagram](/screenshot/Picture3.png)
+![ER Diagram](/screenshot/Picture7.png)
 
 3. Additional Tables:
 Treatments - Medical treatments and procedures
