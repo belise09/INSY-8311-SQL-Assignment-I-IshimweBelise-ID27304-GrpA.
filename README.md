@@ -133,10 +133,14 @@ Purpose: Identify high-utilization patients for targeted care management
 2. Running Total of Monthly Patient Admissions → SUM() OVER()
 Function Used: SUM() OVER() with ROWS and RANGE frames
 
+![ER Diagram](/screenshot/Picture15.png)
+
 Purpose: Track hospital growth trends for capacity planning
 
 3. Month-over-Month Change in Treatment Costs → LAG()
 Function Used: LAG(), LEAD()
+
+![ER Diagram](/screenshot/Picture16.png)
 
 Purpose: Analyze revenue trends and financial forecasting
 
@@ -146,6 +150,9 @@ Function Used: NTILE(4), CUME_DIST()
 Purpose: Balance workloads and identify top performers
 
 5. Three-Month Moving Average of Lab Tests → AVG() OVER()
+
+![ER Diagram](/screenshot/Picture4.png)
+
 Function Used: AVG() OVER() with window frames
 
 Purpose: Monitor diagnostic service utilization trends
