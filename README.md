@@ -96,20 +96,22 @@ Five JOIN Types Implemented:
 1. INNER JOIN
 Purpose: Identify patients with their treatments and assigned doctors
 Business Value: Tracks complete patient care pathways and doctor-patient assignments
+![ER Diagram](/screenshot/Picture9.png)
 
-2. LEFT JOIN
+
+3. LEFT JOIN
 Purpose: Identify underutilized doctors (no treatments this month)
 Business Value: Optimizes staff allocation and identifies training needs
 
-3. RIGHT JOIN
+4. RIGHT JOIN
 Purpose: Detect appointments without assigned doctors
 Business Value: Improves appointment management system efficiency
 
-4. FULL OUTER JOIN
+5. FULL OUTER JOIN
 Purpose: Identify data quality issues (unmatched records)
 Business Value: Ensures data integrity and identifies orphan records
 
-5. SELF JOIN
+6. SELF JOIN
 Purpose: Analyze patient admission patterns by month
 Business Value: Identifies seasonal trends and aids resource planning
 
